@@ -1,0 +1,81 @@
+<!Doctype html>
+<html lang="en">
+<head>
+	<title>CatPhotoApp</title>
+	<meta charset="utf-8">
+	
+</head>
+
+<body>
+	<main>
+			<h1>CatPhoto App</h1>
+
+			<section>
+
+				<h2>Cat Photos</h2>
+				<p>See more <a href="./CatPhotoGallery.html" target="_self">cat photos</a> in our gallery.</p>
+				<img src="./images/relaxing-cat.jpg" alt="A cute orange cat lying on its back." class="">
+
+			</section>
+
+			<section>
+
+				<h2>Cat Lists</h2>
+				<h3>Things cats love:</h3>
+				<ul>
+					<li>cat nip</li>
+					<li>laser pointers</li>
+					<li>lasagna</li>
+				</ul>
+
+				<figure>
+				<img src="./images/lasagna.jpg" alt="A lasagna on a plate." class="">
+				<figcaption>Cats <em>love<em> lasagna</figcaption>
+				</figure>
+
+				<h3>Top 3 things cat hate:</h3>
+				<ol>
+					<li>flea treatment</li>
+					<li>thunder</li>
+					<li>other cats</li>
+				</ol>
+				<figure>
+				<img src="./images/three-cats.webp" alt="" class="">
+				<figcaption>Cats <strong>hate</strong> other cats</figcaption>
+				</figure>
+			</section>
+			
+			<section>
+			 <h2>Cat Form</h2>
+				<form action="https://freecatphotoapp.com/submit-cat-photo">
+					<fieldset>
+						<legend>Is your cat an indoor or outdoor cat?</legend>
+						<label><input type="radio" name="indoor-outdoor" value="indoor-outdoor">Indoor</label>
+
+						<label><input type="radio" name="indoor-outdoor" value="outdoor">Outdoor</label>
+					</fieldset>
+					<br>
+					<fieldset>
+						<legend>What's your cat's personality?</legend>
+						<input type="checkbox" name="personality" id="loving" value="loving"> <label for="loving">Loving</label>
+						<input type="checkbox" name="personality" id="quiet" value="quiet"> <label for="quiet">Quiet</label>
+						<input type="checkbox" name="personality" id="wild" value="wild"> <label for="wild">Wild</label>
+						<input type="checkbox" name="personality" id="playful" value="playful"> <label for="playful">Playful</label>
+						<input type="checkbox" name="personality" id="cute" value="cute"> <label for="cute">Cute</label>
+					</fieldset>
+					<br>
+					<input type="text" name="Cat-Photos-URL" placeholder="cat photo url">
+					<button type="submit">Submit</button>
+
+				</form>
+			</section>
+
+	</main>
+	
+	<footer>
+		<p>No Copyright <a href="https://www.freecodecamp.org">-freeCodeCamp</a></p>
+	</footer>
+
+</body>
+
+</html>
